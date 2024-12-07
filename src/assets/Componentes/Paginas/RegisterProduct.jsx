@@ -2,8 +2,8 @@ import { addDoc, collection } from 'firebase/firestore';
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom';
-import { db } from './Config';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { db } from './Config';
 
 export default function RegisterProduct() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm()

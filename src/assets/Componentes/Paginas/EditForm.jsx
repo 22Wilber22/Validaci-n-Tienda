@@ -3,8 +3,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { doc, getDoc, updateDoc } from 'firebase/firestore'
 import { useForm } from 'react-hook-form'
 import Swal from 'sweetalert2'
-import { db } from './Config'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { db } from './Config'
 
 export default function EditForm() {
   const { register, handleSubmit, setValue, formState: { errors } } = useForm();

@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
-import { auth_user } from './Config';
+import { auth_user } from './Paginas/Config';
 
 // Ccreamos esuqema de validacion
 const schema = yup.object().shape({

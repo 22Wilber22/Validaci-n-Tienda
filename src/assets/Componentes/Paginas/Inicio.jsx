@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Swal from 'sweetalert2';
 import { auth_user, db } from './Config';
 
+
 function Inicio() {
   const [products, setProducts] = useState([]);
   const [user, setUser] = useState(null);
